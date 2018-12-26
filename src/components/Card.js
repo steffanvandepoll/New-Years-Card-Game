@@ -50,7 +50,7 @@ class Card extends Component {
   }
 
   removeFromList(array, object){
-    return array.filter(function(el) { return el != object; });
+    return array.filter(function(el) { return el !== object; });
   }
   render() {
     this.setUpPlayers();
