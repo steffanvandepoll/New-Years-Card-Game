@@ -1,10 +1,19 @@
 {
   "cards": [
     {
-      "title": "vraag 1"
+      "title": "Wild Wild West - Staredown!",
+      "description": "Dit is een vraag voor [player1] waarin zo nu en dan ook van [player2] en [player3] iets verwacht wordt",
+      "rules": [
+        "Dit is een regel voor [player1] en niet voor [player2]",
+        "regel 2"
+      ]
     },
     {
-      "title": "vraag 2"
+      "title": "Funkytown",
+      "description": "Dit is een vraag voor [player1] waarin zo nu en dan ook van [player2] en [player3] iets verwacht wordt",
+      "rules": [
+        "Dit is een regel voor [player2] en niet voor [player1]"
+      ]
     }
   ]
 }

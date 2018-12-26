@@ -25,7 +25,7 @@ class App extends Component {
     super();
     this.playerMinimum = 1;
     this.state = {
-      players: ["Steffan", "Marco"],
+      players: ["Steffan", "Marco", "Merijn","Sietkse"],
       started: false
     }
   }
