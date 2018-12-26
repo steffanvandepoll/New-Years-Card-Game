@@ -1,0 +1,35 @@
+@keyframes pulse {
+  0%   {left:0;}
+  50%  {left: 5px;}
+  100% {left:0;}
+}
+
+.player-list{
+  position: absolute;
+  left:20px;
+  top:150px;
+  text-align: left;
+  h2{
+    font-size: 30px
+  }
+  ul{
+    font-size: 22px;
+    line-height: 35px;
+    li{
+      display: flex;
+      align-items: center;
+      padding-left: 35px;
+      position: relative;
+      svg{
+        position: absolute;
+        left: 0;
+        top: 5px;
+        width:26px;
+        height:26px;
+        animation-name: pulse;
+        animation-duration: 1.5s;
+        animation-iteration-count: infinite;
+      }
+    }
+  }
+}
