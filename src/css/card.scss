@@ -12,8 +12,21 @@
   .player{
     font-weight: bold;
     color:#087cc1;
+    .real-name{
+      font-weight:normal;
+      font-size:16px;
+      &:before{
+        content: "(";
+      }
+      &:after{
+        content: ")";
+      }
+    }
     &.active-player{
       color:#51b40a;
+    }
+    &.alt{
+      color:#e92525;
     }
   }
 

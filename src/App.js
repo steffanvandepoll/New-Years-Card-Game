@@ -53,7 +53,6 @@ class App extends Component {
     this.setState({
       started: true
     });
-    console.log("startohh")
   }
 
   render() {

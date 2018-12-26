@@ -19,10 +19,11 @@ class Players extends Component {
         if(player === this.props.activePlayer){
           activePlayer = <ArrowRight />
         }
+        let playerName = player.alt != null ? player.alt + " <span class='real-name'>" + player.name + "</span>" : player.name;
         return (
           <li>
             {activePlayer}
-            {player}
+            <span dangerouslySetInnerHTML={ { __html: playerName } }></span>
           </li>
         );
       });

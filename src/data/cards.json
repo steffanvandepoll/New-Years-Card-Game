@@ -5,8 +5,9 @@
       "description": "Dit is een vraag voor [player1] waarin zo nu en dan ook van [player2] en [player3] iets verwacht wordt",
       "rules": [
         "Dit is een regel voor [player1] en niet voor [player2]",
-        "regel 2"
-      ]
+        "[player1.name] zal voortaan door het leven gaan als [player1.alt]"
+      ],
+      "namechange": "Billy-joe-jim-bob"
     },
     {
       "title": "Funkytown",

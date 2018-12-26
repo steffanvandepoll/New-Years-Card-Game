@@ -35,15 +35,24 @@ class Game extends Component {
     }
   }
   componentDidMount() {
-    let players;
+    let players = [];
     let activePlayer;
     let cards = this.shuffleArray(cardData.cards);
     let cardIndex = this.state.cardIndex;
     let playerIndex = this.state.playerIndex;
 
     if(this.props.players && this.props.players.length > 0){
-      players = this.shuffleArray(this.props.players);
+      for(let i in this.props.players){
+        let player = {};
+        player.name = this.props.players[i];
+        player.alt = null;
+        players.push(player);
+      }
+
+      players = this.shuffleArray(players);
       activePlayer = players[playerIndex];
+
+      this.handleNameChanges(cards[cardIndex], activePlayer, players);
 
       this.setState({
         players: players,
@@ -63,9 +72,11 @@ class Game extends Component {
     this.state.playerIndex++;
     if(this.state.playerIndex > this.state.players.length - 1){
       this.state.playerIndex = 0;
+      this.state.cards = this.shuffleArray(this.state.cards);
+
     }
-    //reshuffle the deck
-    this.state.cards = this.shuffleArray(this.state.cards);
+    //check for name changes
+    this.handleNameChanges(this.state.cards[this.state.cardIndex], this.state.players[this.state.playerIndex], this.state.players);
 
     this.setState({
       cards: this.state.cards,
@@ -74,6 +85,21 @@ class Game extends Component {
       cardIndex: this.state.cardIndex,
       playerIndex: this.state.playerIndex
     });
+  }
+
+  handleNameChanges(card, activePlayer, players){
+    if(card.namechange){
+      //clear alt if already active on a player
+      for(let i in players){
+        if(players[i].alt === card.namechange){
+          players[i].alt = null;
+        }
+
+        if(players[i].name === activePlayer.name){
+          players[i].alt = card.namechange;
+        }
+      }
+    }
   }
 
   shuffleArray(array) {
