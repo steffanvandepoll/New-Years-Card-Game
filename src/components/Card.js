@@ -81,9 +81,10 @@ class Card extends Component {
      });
     }
 
+    let classes = this.props.card.theme ? this.props.card.theme + " card" : "card";
 
     return (
-      <div className="card">
+      <div className={classes}>
         <h2>"{this.props.card.title}"</h2>
         <p dangerouslySetInnerHTML={ { __html: content } }></p>
         <ul>{rules}</ul>

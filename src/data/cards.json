@@ -3,6 +3,7 @@
     {
       "title": "Wild Wild West - Staredown!",
       "description": "Dit is een vraag voor [player1] waarin zo nu en dan ook van [player2] en [player3] iets verwacht wordt",
+      "theme": "costume",
       "rules": [
         "Dit is een regel voor [player1] en niet voor [player2]",
         "[player1.name] zal voortaan door het leven gaan als [player1.alt]"
@@ -12,6 +13,15 @@
     {
       "title": "Funkytown",
       "description": "Dit is een vraag voor [player1] waarin zo nu en dan ook van [player2] en [player3] iets verwacht wordt",
+      "theme": "challenge",
+      "rules": [
+        "Dit is een regel voor [player2] en niet voor [player1]"
+      ]
+    },
+    {
+      "title": "Funkytown",
+      "description": "Dit is een vraag voor [player1] waarin zo nu en dan ook van [player2] en [player3] iets verwacht wordt",
+      "theme": "timed",
       "rules": [
         "Dit is een regel voor [player2] en niet voor [player1]"
       ]
