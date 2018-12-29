@@ -1,30 +1,246 @@
 {
   "cards": [
     {
-      "title": "Wild Wild West - Staredown!",
-      "description": "Dit is een vraag voor [player1] waarin zo nu en dan ook van [player2] en [player3] iets verwacht wordt",
+      "title": "Herroww? Hans?",
+      "description": "Our glorius leader [player1] has joined the group today. Being extremely gracefull in his presence [player2] and [player3] will bow before his greatness and give him one of their gifts",
       "theme": "costume",
       "rules": [
-        "Dit is een regel voor [player1] en niet voor [player2]",
-        "[player1.name] zal voortaan door het leven gaan als [player1.alt]"
+        "[player1.name] will from now on be known as [player1.alt]",
+        "if [player2] and [player3] don't have any gifts they will be taken from the pile or stolen from the rich"
       ],
-      "namechange": "Billy-joe-jim-bob"
+      "namechange": "Kimmie"
     },
     {
-      "title": "Funkytown",
-      "description": "Dit is een vraag voor [player1] waarin zo nu en dan ook van [player2] en [player3] iets verwacht wordt",
+      "title": "The pact",
+      "description": "[player1]'s soul is taken by the Devil himself... and in return is blessed with demonic powers. <strong>All players</strong> cower in fear and offer up one of their gifts to please their lord",
+      "theme": "costume",
+      "rules": [
+        "[player1.name] will from now on be known as [player1.alt]",
+        "if any player has no gift... [player1] laughs evilly at the pitty losers!"
+      ],
+      "namechange": "Diablo"
+    },
+    {
+      "title": "Screw you.. I do what I want",
+      "description": "After watching 'Super Drags' on Netflix [player1] decides to become a drag queen... in support [player2] and [player3] offer it a gift",
+      "theme": "costume",
+      "rules": [
+        "[player1.name] will from now on be known as [player1.alt]",
+        "if [player2] or [player3] has no gifts, [player1] get's a gift from pile or the richest player]"
+      ],
+      "namechange": "Angel"
+    },
+    {
+      "title": "Miaaauuwww",
+      "description": "In exchange for a poisoned apple a witch grants [player1] his biggest wish and turns him into a cat!<br /><br /> Using his new cat-skills he sneaks 2 gifts from the pile.",
+      "theme": "costume",
+      "rules": [
+        "[player1.name] will from now on be known as [player1.alt]",
+        "If there are no gifts in the pile... [player1] take one from the richest player"
+      ],
+      "namechange": "Pussy"
+    },
+    {
+      "title": "Dumboooo",
+      "description": "After watching Dumbo on netflix [player1] uses the power of plastic surgery to change himself into an elephant!",
+      "theme": "costume",
+      "rules": [
+        "[player1.name] will from now on be known as [player1.alt]",
+        "[player1] is now able to fly! Really.. give it a try",
+        "[player1] takes 2 gifts from the pile",
+        "If there are no gifts in the pile... [player1] take one from the richest player"
+      ],
+      "namechange": "Dumbo"
+    },
+    {
+      "title": "The sock-monster",
+      "description": "After watching way to many episodes of the muppets [player1]'s hand get's possessed by a sock",
+      "theme": "costume",
+      "rules": [
+        "[player1.name] will from now on be known as [player1.alt]",
+        "[player1] is only allowed to talk using his sock",
+        "[player1] takes 3 gifts from the pile",
+        "If there are no gifts in the pile... [player1] take one from the richest player"
+      ],
+      "namechange": "Sock"
+    },
+    {
+      "title": "Yarrghhhh",
+      "description": "[player1] has decided to change his way of life and become a pirate! Yarghhh... He collect's some sweet booty from [player2], [player3] and [player4]",
+      "theme": "costume",
+      "rules": [
+        "[player1.name] will from now on be known as [player1.alt]",
+        "[player2], [player3] and [player4] lose a gift to [player1]",
+        "if any player has no gifts, [player1] makes them get food for all the other players"
+      ],
+      "namechange": "Beard Beard"
+    },
+    {
+      "title": "Equivalent Exchange",
+      "description": "Humankind cannot gain anything without first giving something in return. To obtain, something of equal value must be lost. <br /><br />[player1] trades a gift with [player2]",
+      "theme": "trade",
+      "rules": [
+        "If either player has no gifts they will be taken from the pile or stolen from the rich"
+      ],
+      "duplicates": 5
+    },
+    {
+      "title": "You've been naughty...",
+      "description": "[player1] has been very naughty this year... santa takes one of your gifts",
+      "theme": "thumbs-down",
+      "rules": [
+        "Losts gifts are added to the pile",
+        "If [player1] has no gifts... well... I guess even santa feels bad for you"
+      ],
+      "duplicates": 2
+    },
+    {
+      "title": "Spooky ghost!",
+      "description": "[player1] encounters a 'spoooooky ghost' and gets covered in 'ectoplasm'... feeling bad he takes 1 gift from the pile",
+      "theme": "thumbs-up",
+      "rules": [
+        "[player1] explains to the group where all the white warm sticky stuff came from",
+        "If there are no gifts in the pile... [player1] take one from the richest player"
+      ],
+      "duplicates": 2
+    },
+    {
+      "title": "Robin Da Hood",
+      "description": "[player1] decides to stick it to the man! It's time to steal from the rich and give to... well not the poor, screw them... I'm doing all the hard work here!",
+      "theme": "thief",
+      "rules": [
+        "[player1] takes 2 gifts from the richest player",
+        "If [player1] is the richest player... don't whine.. you're rich!"
+      ],
+      "duplicates": 2
+    },
+    {
+      "title": "Demonic encounter!",
+      "description": "[player1] got lost in the woods... in the deep dark forest a demon suddenly appears and offers to help you find your way back...<br /><br /> at the cost of 2 gifts though! muahaha",
+      "theme": "thumbs-down",
+      "rules": [
+        "[player1] loses 2 gifts",
+        "if [player1] has demonic powers... he/she gets 2 gifts instead",
+        "Losts gifts are added to the pile",
+        "If [player1] has no gifts... he/she gets drinks for everybody"
+      ],
+      "duplicates": 2
+    },
+    {
+      "title": "You've been nice...",
+      "description": "[player1] has been a good genderless being this year... the gods of gender-neutrality bless you with a gift. ",
+      "theme": "thumbs-up",
+      "rules": [
+        "[player1] takes a gift from the pile",
+        "If there are no gifts in the pile... [player1] take one from the richest player"
+      ],
+      "duplicates": 2
+    },
+    {
+      "title": "This town ain't big enough",
+      "description": "Sheriff [player1] is in charge of this town... but bandit [player2] ain't playing kindly... It's time for a staredown at noon!",
       "theme": "challenge",
       "rules": [
-        "Dit is een regel voor [player2] en niet voor [player1]"
-      ]
+        "both players put on a cowboy hat! Yeeee hawww",
+        "The players stare in eachothers eyes... the first to blink loses a gift to the other",
+        "put on some good/bad/ugly music for extra effect",
+        "if the loser has no gifts, the winner takes or steals one"
+      ],
+      "duplicates": 3
     },
     {
-      "title": "Funkytown",
-      "description": "Dit is een vraag voor [player1] waarin zo nu en dan ook van [player2] en [player3] iets verwacht wordt",
+      "title": "Rock, Paper, Shotgun",
+      "description": "[player1] challenges [player2] and [player3] to a game of rock/paper/scissors",
+      "theme": "challenge",
+      "rules": [
+        "The winner takes 1 gift from the other players",
+        "if the loser has no gifts, the winner takes or steals one"
+      ],
+      "duplicates": 3
+    },
+    {
+      "title": "180!!!",
+      "description": "[player1]'s dream to be the best there's ever been is about to come true... Take out the dart board and show what you're made of",
+      "theme": "challenge",
+      "rules": [
+        "the board is placed 2 meters away from the player",
+        "[player1] gets 3 throws to try and hit the middel row",
+        "if [player1] hits the middle row at least once he gets a gift",
+        "if [player1] is able to head the exact center he gets 2 gifts",
+        "If there are no gifts in the pile... [player1] take one from the richest player"
+      ],
+      "duplicates": 3
+    },
+    {
+      "title": "The dive",
+      "description": "[player1] takes [player2], [player3] and [player4] diving... unfortunatly he forgot to bring any equipment... but no worries, we can just hold our breaths!",
+      "theme": "challenge",
+      "rules": [
+        "All players hold their breaths, the player who lasts longest wins!",
+        "The winner takes 1 gift from the other players",
+        "if any loser has no gifts... they must record their best fart impression and share it with the group!"
+      ],
+      "duplicates": 3
+    },
+    {
+      "title": "A day at the zoo",
+      "description": "[player1] tell's [player2] how amazing he is at making animal sounds... now it's time to prove it",
       "theme": "timed",
       "rules": [
-        "Dit is een regel voor [player2] en niet voor [player1]"
-      ]
+        "[player1] has 30 seconds to make as many different animal sounds as he can think of",
+        "[player2] has to guess the animals",
+        "if [player2] is able to guess at least 10 animals, both players get 2 gifts"
+      ],
+      "duplicates": 2
+    },
+    {
+      "title": "Winner takes all!",
+      "description": "Luck is what happens. when preparation meets opportunity.<br /><br />  [player1] invites  [player2] and [player3] for a game of dice... go big or go home",
+      "theme": "gamble",
+      "rules": [
+        "[player1] choses up to 2 gifts to gamble... [player2] and [player3] must join",
+        "[player1] throws the dice",
+        "[player1] wins with a 1 or 2, [player2] wins with 3 or 4, [player3] wins with 5 or 6",
+        "The winner gets al the gifts!",
+        "if any player does not have enough gifts when they lose... they dance on a backstreet boys / spice girls song"
+      ],
+      "duplicates": 3
+    },
+    {
+      "title": "Luck of the draw!",
+      "description": "[player1] joins [player2], [player3] and [player4] for a game of chance at the casino...",
+      "theme": "gamble",
+      "rules": [
+        "each player gambles 1 gift",
+        "[player1] throws the dice",
+        "if a <strong>1</strong> is thrown everybody loses their bets - gifts go back in the pile",
+        "if a <strong>2</strong> is thrown [player1] wins and gets all the gifts",
+        "if a <strong>3</strong> is thrown [player2] wins and gets all the gifts",
+        "if a <strong>4</strong> is thrown [player3] wins and gets all the gifts",
+        "if a <strong>5</strong> is thrown [player4] wins and gets all the gifts",
+        "if a <strong>6</strong> everybody wins! Players take a gift from the pile",
+        "if any player does not have enough gifts when they lose... get drinks for [player1]"
+      ],
+      "duplicates": 3
+    },
+    {
+      "title": "Swiper no swiping!",
+      "description": "[player1] swipes a gift away from [player2]",
+      "theme": "thief",
+      "rules": [
+        "If [player2] has no gifts, [player1] swipes one from the richest player - or the pile"
+      ],
+      "duplicates": 3
+    },
+    {
+      "title": "Apocalypse now",
+      "description": "[player1] accidentaly triggered the apocalypse... the earth is now doomed.. thank you [player1]!",
+      "theme": "thumbs-down",
+      "rules": [
+        "<strong>All players</strong> lose a gift",
+        "Everybody has to thank [player1] for triggering the apocalypse"
+      ],
+      "duplicates": 2
     }
   ]
 }

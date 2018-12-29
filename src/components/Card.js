@@ -88,6 +88,7 @@ class Card extends Component {
         <h2>"{this.props.card.title}"</h2>
         <p dangerouslySetInnerHTML={ { __html: content } }></p>
         <ul>{rules}</ul>
+        <span class="card-count">{this.props.cardIndex + 1}/{this.props.cardCount}</span>
       </div>
     );
   }

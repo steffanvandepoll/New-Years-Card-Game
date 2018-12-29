@@ -12,6 +12,7 @@
   background-size: 150px 150px;
   background-position: auto auto 50px 50px;
   background-position: right 20px top 20px;
+  position: relative;;
 
   .player{
     font-weight: bold;
@@ -45,14 +46,25 @@
     margin-top:30px;
     text-align: left;
     li{
-      display: flex;
-      align-items: center;
       font-size: 18px;
-      line-height: 35px;
+      line-height: 25px;
+      position: relative;
+      margin-top:10px;
+      padding-left:30px;
       svg{
-        margin-right:10px;
+        left:0;
+        top:1px;
+        position: absolute;
       }
     }
+  }
+
+  .card-count{
+    position: absolute;
+    right:20px;
+    bottom:20px;
+    font-size: 25px;
+    font-weight: bold;
   }
 
 
@@ -65,5 +77,26 @@
   }
   &.timed{
     background-image: url("../assets/img/timed.png");
+  }
+  &.search{
+    background-image: url("../assets/img/search.png");
+  }
+  &.trade{
+    background-image: url("../assets/img/trade.png");
+  }
+  &.thief{
+    background-image: url("../assets/img/thief.png");
+  }
+  &.gamble{
+    background-image: url("../assets/img/gamble.png");
+  }
+  &.thumbs-up{
+    background-image: url("../assets/img/thumbs-up.png");
+  }
+  &.thumbs-down{
+    background-image: url("../assets/img/thumbs-down.png");
+  }
+  &.gift{
+    background-image: url("../assets/img/gift.png");
   }
 }
