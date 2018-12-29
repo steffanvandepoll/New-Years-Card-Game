@@ -34,20 +34,20 @@ class Card extends Component {
   getContentWithPlayerNames(content){
     if(typeof content !== 'undefined'){
       //replacing content
-      content = content.replace("[player1]", "<span class='player active-player'>" + this.renderPlayerName(this.player1)  + "</span>");
-      content = content.replace("[player2]", "<span class='player'>" + this.renderPlayerName(this.player2)  + "</span>");
-      content = content.replace("[player3]", "<span class='player'>" + this.renderPlayerName(this.player3)  + "</span>");
-      content = content.replace("[player4]", "<span class='player'>" + this.renderPlayerName(this.player4)  + "</span>");
+      content = content.replace(new RegExp("\\[player1\\]", "g"), "<span class='player active-player'>" + this.renderPlayerName(this.player1)  + "</span>");
+      content = content.replace(new RegExp("\\[player2\\]", "g"), "<span class='player'>" + this.renderPlayerName(this.player2)  + "</span>");
+      content = content.replace(new RegExp("\\[player3\\]", "g"), "<span class='player'>" + this.renderPlayerName(this.player3)  + "</span>");
+      content = content.replace(new RegExp("\\[player4\\]", "g"), "<span class='player'>" + this.renderPlayerName(this.player4)  + "</span>");
 
-      content = content.replace("[player1.alt]", "<span class='player alt'>" + this.player1.alt + "</span>");
-      content = content.replace("[player2.alt]", "<span class='player alt'>" + this.player2.alt  + "</span>");
-      content = content.replace("[player3.alt]", "<span class='player alt'>" + this.player3.alt  + "</span>");
-      content = content.replace("[player4.alt]", "<span class='player alt'>" + this.player4.alt  + "</span>");
+      content = content.replace(new RegExp("\\[player1.alt\\]", "g"), "<span class='player alt'>" + this.player1.alt + "</span>");
+      content = content.replace(new RegExp("\\[player2.alt\\]", "g"), "<span class='player alt'>" + this.player2.alt  + "</span>");
+      content = content.replace(new RegExp("\\[player3.alt\\]", "g"), "<span class='player alt'>" + this.player3.alt  + "</span>");
+      content = content.replace(new RegExp("\\[player4.alt\\]", "g"), "<span class='player alt'>" + this.player4.alt  + "</span>");
 
-      content = content.replace("[player1.name]", "<span class='player active-player'>" + this.player1.name + "</span>");
-      content = content.replace("[player2.name]", "<span class='player'>" + this.player2.name  + "</span>");
-      content = content.replace("[player3.name]", "<span class='player'>" + this.player3.name  + "</span>");
-      content = content.replace("[player4.name]", "<span class='player'>" + this.player4.name  + "</span>");
+      content = content.replace(new RegExp("\\[player1.name\\]", "g"), "<span class='player active-player'>" + this.player1.name + "</span>");
+      content = content.replace(new RegExp("\\[player2.name\\]", "g"), "<span class='player'>" + this.player2.name  + "</span>");
+      content = content.replace(new RegExp("\\[player3.name\\]", "g"), "<span class='player'>" + this.player3.name  + "</span>");
+      content = content.replace(new RegExp("\\[player4.name\\]", "g"), "<span class='player'>" + this.player4.name  + "</span>");
     }
     return content;
   }
