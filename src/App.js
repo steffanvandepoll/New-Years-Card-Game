@@ -23,9 +23,9 @@ class App extends Component {
 
   constructor(){
     super();
-    this.playerMinimum = 1;
+    this.playerMinimum = 4;
     this.state = {
-      players: ["Steffan", "Marco", "Merijn","Sietkse"],
+      players: [],
       started: false
     }
   }
@@ -87,13 +87,13 @@ class App extends Component {
 
           <h2>rules:</h2>
           <ul className="rules">
-            <li>A minimum of 4 players is required to play the game</li>
             <li>No unwrapping the gifts!!! - in this game we value quantity over quality</li>
             <li>All costumes/outfits must be worn until the game is complete or they are replaced with another costume</li>
             <li>When all gifts are removed from the pile... gifttakers must resort to stealing...</li>
             <li>When stealing a gift.. be like Robin Hood... steal form the richest and gift to well... yourself!</li>
             <li>Drinking alcoholic consumptions during gameplay is advised</li>
             <li>This game has no real end, nor time limit... play untill you get sick of it</li>
+            <li>This game is not optimized for mobile at the moment, we advice to play on desktop or tablet</li>
           </ul>
       </div>
     );

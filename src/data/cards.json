@@ -11,6 +11,17 @@
       "namechange": "Kimmie"
     },
     {
+      "title": "The king!",
+      "description": "Any man who must say 'I am the king' is no TRUE king<br /><br /> - Tywin Lannister",
+      "theme": "costume",
+      "rules": [
+        "[player1.name] will from now on be known as [player1.alt]",
+        "[player1] has to say 'I am the king'",
+        "[player1] takes <strong>ALL</strong> gifts left in the pile"
+      ],
+      "namechange": "The king"
+    },
+    {
       "title": "The pact",
       "description": "[player1]'s soul is taken by the Devil himself... and in return is blessed with demonic powers. <strong>All players</strong> cower in fear and offer up one of their gifts to please their lord",
       "theme": "costume",
@@ -38,7 +49,7 @@
         "[player1.name] will from now on be known as [player1.alt]",
         "If there are no gifts in the pile... [player1] take one from the richest player"
       ],
-      "namechange": "Pussy"
+      "namechange": "Pussycat"
     },
     {
       "title": "Dumboooo",
@@ -82,7 +93,27 @@
       "rules": [
         "If either player has no gifts they will be taken from the pile or stolen from the rich"
       ],
-      "duplicates": 5
+      "duplicates": 4
+    },
+    {
+      "title": "Overseeing a trade",
+      "description": "[player1] oversees a trade between [player2] and [player3] to make sure everything is fair... he takes his payement's in gifts though",
+      "theme": "trade",
+      "rules": [
+        "[player2] and [player3] trade a gift",
+        "[player1] takes one gift from the pile",
+        "if no gifts are in the pile or available, they're taken from the richest player"
+      ],
+      "duplicates": 4
+    },
+    {
+      "title": "Going round",
+      "description": "[player1] gives a gift to the player to his right... all players do the same",
+      "theme": "trade",
+      "rules": [
+        "if a player has no gifts to give to player next to him... tough luck for the player next to him"
+      ],
+      "duplicates": 3
     },
     {
       "title": "You've been naughty...",
@@ -105,6 +136,16 @@
       "duplicates": 2
     },
     {
+      "title": "The Joker",
+      "description": "Why so serious? <br /><br /> [player1] tells a joke or funny store to the group",
+      "theme": "thumbs-up",
+      "rules": [
+        "if any player laughs at the joke [player1] gets a gift",
+        "If there are no gifts in the pile... [player1] take one from the richest player"
+      ],
+      "duplicates": 3
+    },
+    {
       "title": "Robin Da Hood",
       "description": "[player1] decides to stick it to the man! It's time to steal from the rich and give to... well not the poor, screw them... I'm doing all the hard work here!",
       "theme": "thief",
@@ -112,7 +153,7 @@
         "[player1] takes 2 gifts from the richest player",
         "If [player1] is the richest player... don't whine.. you're rich!"
       ],
-      "duplicates": 2
+      "duplicates": 3
     },
     {
       "title": "Demonic encounter!",
@@ -159,6 +200,37 @@
       "duplicates": 3
     },
     {
+      "title": "I can do this!",
+      "description": "[player1] is getting a bit tipsy and wants to show the rest of the players his flexibility by licking his elbow",
+      "theme": "timed",
+      "rules": [
+        "[player1] gets 30 seconds to try and lick his elbow",
+        "if [player1] succeeds he gets a gift from the pile"
+      ],
+      "duplicates": 3
+    },
+    {
+      "title": "The icecream",
+      "description": "[player1] is struck by heatstroke and starts hallucinating... pretty sure I'm holding an icecream in my hand now!",
+      "theme": "gift",
+      "rules": [
+        "[player1] pretends to be eating an imaginary icecream for 2 minutes",
+        "for the amazing display, [player1] is rewarded with a gift from the pile or richest player"
+      ],
+      "duplicates": 3
+    },
+    {
+      "title": "Hide and seek",
+      "description": "[player1] invites [player2] and [player3] to play a game of hide and seek...",
+      "theme": "search",
+      "rules": [
+        "[player1] takes 2 gifts from the pile or richest player and gets 30 seconds to hide them",
+        "[player2] and [player3] get 30 seconds to look for the gifts",
+        "Unfound gifts are rewarded to [player1] and found gifts are given to the finders"
+      ],
+      "duplicates": 3
+    },
+    {
       "title": "180!!!",
       "description": "[player1]'s dream to be the best there's ever been is about to come true... Take out the dart board and show what you're made of",
       "theme": "challenge",
@@ -172,6 +244,37 @@
       "duplicates": 3
     },
     {
+      "title": "Beerpong - duel",
+      "description": "Grab your balls! we're playing beer pong... [player1] challenges [player2] to a duel",
+      "theme": "challenge",
+      "rules": [
+        "each player get's a cup",
+        "the cups are placed on the floor 2 meters apart",
+        "the players <strong>are not</strong> allowed to move",
+        "the ball has to bounce before going in the cup",
+        "each player get's a ball",
+        "first to hit the cup wins! and takes one gift from the other",
+        "if the other has no gift, it's taken from the pile or stolen"
+      ],
+      "duplicates": 4
+    },
+    {
+      "title": "Beerpong - battle royale!",
+      "description": "Grab your balls! we're playing beer pong... [player1], [player2], [player3] and [player4] get stuck in a battle royale",
+      "theme": "challenge",
+      "rules": [
+        "each player get's a cup",
+        "the cups are placed on the floor at the corners of a square about 1-2 m. apart",
+        "the players <strong>are</strong> allowed to move",
+        "the ball has to bounce before going in the cup",
+        "each player get's a ball",
+        "when your cup is hit, you're out!",
+        "last player with an empty cup wins and takes one gift from the losers",
+        "if the others have no gift, they're taken from the pile or stolen"
+      ],
+      "duplicates": 4
+    },
+    {
       "title": "The dive",
       "description": "[player1] takes [player2], [player3] and [player4] diving... unfortunatly he forgot to bring any equipment... but no worries, we can just hold our breaths!",
       "theme": "challenge",
@@ -179,6 +282,31 @@
         "All players hold their breaths, the player who lasts longest wins!",
         "The winner takes 1 gift from the other players",
         "if any loser has no gifts... they must record their best fart impression and share it with the group!"
+      ],
+      "duplicates": 3
+    },
+    {
+      "title": "Santa Claus is coming to town",
+      "description": "[player1]'s amazing christmass singing has triggered Santa to come to town early this year and bless the group with some lovely gifts",
+      "theme": "gift",
+      "rules": [
+        "[player1] has to sing a christmass song",
+        "<strong>All players</strong> get a gift",
+        "if there are not enough gifts in the pile, they're given to the poorest players"
+      ],
+      "duplicates": 2
+    },
+    {
+      "title": "Taking a nap",
+      "description": "[player1] has had it with this game... and goes back to bed... the other players can try to take advantage of this",
+      "theme": "thief",
+      "rules": [
+        "[player1] closes his or her eyes... for 30 seconds",
+        "the groups picks a single player to steal a gift from [player1]",
+        "[player1] has to listen and look the piles to try and guess who stole a gift",
+        "if [player1] guesses correctly he takes the stolen gift and one extra gift from the thief",
+        "if guessed wrong, the thief keeps the gift",
+        "if [player1] has no gifts, one is given from the pile or the richest player"
       ],
       "duplicates": 3
     },
@@ -203,6 +331,54 @@
         "[player1] wins with a 1 or 2, [player2] wins with 3 or 4, [player3] wins with 5 or 6",
         "The winner gets al the gifts!",
         "if any player does not have enough gifts when they lose... they dance on a backstreet boys / spice girls song"
+      ],
+      "duplicates": 3
+    },
+    {
+      "title": "Blackjack",
+      "description": "It's not about the cards you're dealt, but how you play the hand<br /><br />  [player1] invites  [player2] and [player3] for a game of Blackjack...",
+      "theme": "gamble",
+      "rules": [
+        "[player1] choses up to 2 gifts to gamble... [player2] and [player3] must join",
+        "all players pick 2 cards and afterwards decide to pick cards or not, blackjack style",
+        "if players have equal points [player1] wins",
+        "if [player1] loses, but [player2] and [player3] have equal points, they flip a coin",
+        "The winner gets al the gifts!",
+        "if any player does not have enough gifts when they lose... they share an emberassing story "
+      ],
+      "duplicates": 3
+    },
+    {
+      "title": "The coin flip",
+      "description": "I don't leave anything up to chance, I make my own luck.<br /><br />  [player1] flips a coin for [player2] and [player3]",
+      "theme": "gamble",
+      "rules": [
+        "If it's head [player2] loses a gift to [player1]",
+        "If it's tails [player3] loses a gift to [player1]"
+      ],
+      "duplicates": 3
+    },
+    {
+      "title": "All IN!",
+      "description": "Time to take some risks! [player1] goes 'all in' and bets all his gifts for a coin flip",
+      "theme": "gamble",
+      "rules": [
+        "if it's head [player1] doubles the gifts and takes them from the pile or richest player(s)",
+        "if it's tails [player1] loses all gifts to the pile"
+      ],
+      "duplicates": 2
+    },
+    {
+      "title": "Pick a card, any card...",
+      "description": "[player1] is tired of all the difficult rules and want's to make things more easy... 'grab the cards' <br /><br />[player2], [player3] and [player4] join [player1] for a game of chance",
+      "theme": "gamble",
+      "rules": [
+        "[player1] picks one card from the deck",
+        "if it's <strong>&hearts;</strong> [player1] wins",
+        "if it's <strong>&diams;</strong> [player2] wins",
+        "if it's <strong>&spades;</strong> [player3] wins",
+        "if it's <strong>&clubs;</strong> [player4] wins",
+        "the winner get's one gift from the losers"
       ],
       "duplicates": 3
     },
@@ -241,6 +417,17 @@
         "Everybody has to thank [player1] for triggering the apocalypse"
       ],
       "duplicates": 3
+    },
+    {
+      "title": "We're gonna build a wall!",
+      "description": "[player1] decides to build a wall and he's gonna make [player2] pay for it",
+      "theme": "thumbs-down",
+      "rules": [
+        "[player2] loses a gift",
+        "[player1] has to tell the group how big the wall is going to be"
+      ],
+      "duplicates": 3
     }
+
   ]
 }

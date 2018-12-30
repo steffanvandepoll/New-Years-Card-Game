@@ -39,7 +39,7 @@ class ConfigurePlayers extends Component {
     }
     return (
       <div className="configure-players">
-        <h3>Add Players</h3>
+        <h3>Add at least 4 players to start the game</h3>
         <form className="add-player" onSubmit={this.handleSubmit.bind(this)}>
          <input placeholder="name" type="text" ref="name" required />
          <button type="submit"><PlusCircle /></button>
